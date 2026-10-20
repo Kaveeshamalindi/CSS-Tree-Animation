@@ -1,0 +1,129 @@
+body {
+    margin-top: 50px;
+    min-height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,  #e4f5fc 0%,#bfe8f9 32%,#9fd8ef 59%,#2ab0ed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#full {
+    position: relative;
+    width: 1000px;
+    height: 800px;
+}
+
+.out-1, .out-2, .out-3{
+    width: 350px;
+    height: 350px;
+    border: 1px solid rgb(7, 153, 107);
+    background: linear-gradient(135deg,  #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius: 200px;
+    position: absolute;
+}
+
+.out-1{
+    top: 100;
+    left: 350px;
+    z-index: 2;
+}
+
+.out-2{
+    top: 200px;
+    left: 165px;
+    z-index: 1;
+}
+
+.out-3{
+    top: 200px;
+    left: 550px;
+    z-index: 1;
+}
+
+.inner-1, .inner-2, .inner-3{
+    width: 80%;
+    height: 80%;
+    border: 1px solid rgb(75, 226, 67);
+    background: linear-gradient(135deg,  #b4e391 0%,#61c419 50%,#b4e391 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius: 55%;
+    position: absolute;
+}
+
+.inner-1 {
+    top: 58px;
+    left: 28px;
+    z-index: 3;
+}
+
+.inner-2 {
+    top: 55px;
+    left: 45px;
+}
+
+.inner-3 {
+    top: 55px;
+    left: 10px;
+}
+
+#rec {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    width: 90px;
+    height: 425px;
+    background: linear-gradient(135deg,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border: 5px solid #603311;
+    box-sizing: border-box;
+}
+
+.fruit {
+    width: 18px;
+    height: 18px;
+    background: linear-gradient(135deg,  #f97780 0%,#f21317 38%,#f21317 47%,#f21317 47%,#f21317 47%,#f21317 47%,#ce164d 76%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border: 2px solid red;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 5;
+}
+
+.fruit-1 {
+    top: 70px;
+    left: 80px;
+}
+
+.fruit-2 {
+    top: 130px;
+    left: 220px;
+}
+
+.fruit-3 {
+    top: 210px;
+    left: 120px;
+}
+
+.fruit-4 {
+    top: 260px;
+    left: 230px;
+}
+
+
+#falling-fruit {
+    top: 250px;
+    left: 430px;
+    animation: fall 2s ease-in forwards;
+}
+
+@keyframes fall {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(450px);
+    }
+}
+
+
+
+
