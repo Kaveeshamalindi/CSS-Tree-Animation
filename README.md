@@ -7,7 +7,7 @@ Simple animation using HTML and CSS
 **Screenshot:**
 
 <p align="center">
-  <img src="Images/Pic1.png" width="500" style="display: inline-block;
+  <img src="Images/Pic1.png" width="800";
 </p>
 
 
