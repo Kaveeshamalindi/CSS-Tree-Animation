@@ -2,10 +2,14 @@
 
 Simple animation using HTML and CSS
 
-**Live Demo:**
+**Live Demo:** https://kaveeshamalindi.github.io/CSS-Tree-Animation/
+<br>
 
-**Screenshot:**
+---
 
+## Screenshot
+
+<br>
 <p align="center">
   <img src="Images/Pic1.png" width="800";
 </p>
