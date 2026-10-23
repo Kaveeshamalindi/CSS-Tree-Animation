@@ -1,6 +1,6 @@
 # 🌳 CSS Tree Animation
 
-**Simple animation using HTML and CSS**
+- Simple animation using HTML and CSS.
 
 **Live Demo:** https://kaveeshamalindi.github.io/CSS-Tree-Animation/
 <br>
